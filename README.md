@@ -1,5 +1,7 @@
 ![Tomcat Server Request and Response](/assets/Capture.PNG)
 )
+![image](https://user-images.githubusercontent.com/112845332/193811096-492bb158-db40-442e-91c6-787e1c332023.png)
+
 
 ## CLIENT <=> WEB SERVER <=> APP SERVER
 
