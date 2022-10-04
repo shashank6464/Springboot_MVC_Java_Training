@@ -1,18 +1,28 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-   <title>Tennis Player Application</title>
+    <title>Title</title>
 </head>
 <body>
+<h1>
+Player Info
+</h1>
+<p>
+Name: ${name} <br>
+Age: ${age}<br>
+Nationality: ${nationality} <br>
+ID: ${id}<br>
 
-<h1>Welcome to my Application.</h1>
 
-<form action="/player.do" method="post">
-<label>Player Name:</label>
-<input type="text" name="playerName" />
-<input type="submit" value="Enter" />
+<h1>
+    Welcome Back! ${name}
+</h1>
 
-</form>
+<%
+    System.out.println(request.getAttribute("name"));
+%>
+
+
 
 </body>
 </html>
